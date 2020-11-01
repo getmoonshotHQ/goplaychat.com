@@ -448,9 +448,9 @@ textarea {
 /**
 APP
 **/
-
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #470058;
 }
 
 main {
@@ -478,31 +478,9 @@ header {
   overflow: hidden;
 }
 
-.background--rect-left {
-  position: absolute;
-  width: 35vh;
-  height: 35vh;
-  left: -17.5vh;
-  top: 0px;
-  background: #560b7a;
-  border-radius: 5px;
-  transform: rotate(-30.4deg);
-}
-
-.background--rect-right {
-  position: absolute;
-  width: 249px;
-  height: 249px;
-  right: 0;
-  top: 582px;
-  background: #531064;
-  border-radius: 5px;
-  transform: rotate(-30.4deg);
-}
-
 .playchat {
   display: flex;
-  width: 160px;
+  width: 140px;
   align-items: center;
   display: flex;
 }
