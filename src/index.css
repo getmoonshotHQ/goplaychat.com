@@ -449,19 +449,35 @@ textarea {
 APP
 **/
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
   background-color: #470058;
 }
 
 main {
+  width: 100%;
   max-width: 960px;
   margin: 0 auto;
+  flex: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    margin-top: 16px;
+  }
 }
 
 .brand {
   display: flex;
   padding: 0 8px;
-  margin-top: 40px;
   flex-direction: column;
 }
 
@@ -481,8 +497,29 @@ main {
 .playchat {
   display: flex;
   height: 40px;
-  width: 200px;
+  width: 160px;
   align-items: center
+}
+
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-size: 3em;
+}
+
+footer {
+  width: 100%;
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .elastos {
