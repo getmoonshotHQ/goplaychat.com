@@ -1,0 +1,36 @@
+{
+  "name": "goplaychat",
+  "version": "0.1.0",
+  "description": "A completely decentralized, peer-to-peer instant messaging app while playing your favorite games!",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify dev -c \"parcel src/index.html\"",
+    "build": "parcel build src/index.html",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint --fix src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getmoonshotHQ/goplaychat.com.git"
+  },
+  "keywords": [],
+  "author": "Playchat <goplaychat@gmail.com> (https://goplaychat.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getmoonshotHQ/goplaychat.com/issues"
+  },
+  "homepage": "https://github.com/getmoonshotHQ/goplaychat.com#readme",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "netlify-cli": "^2.67.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "prettier": "^2.1.2"
+  },
+  "parcelCleanPaths": [
+    "dist"
+  ]
+}
