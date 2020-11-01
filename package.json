@@ -1,6 +1,6 @@
 {
   "name": "goplaychat",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A completely decentralized, peer-to-peer instant messaging app while playing your favorite games!",
   "private": true,
   "scripts": {
